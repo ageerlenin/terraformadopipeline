@@ -6,7 +6,7 @@ variable "project" {
 
 variable "environment" {
   type        = string
-  description = "Environment name i.e. env01, env02 etc."
+  description = "Environment name i.e. dev, test etc."
 }
 
 variable "location" {
