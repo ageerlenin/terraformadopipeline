@@ -7,7 +7,7 @@ variables:
   - name: rootFolder
     value: 'terraform/'
   - name: tfvarsFile
-    value: 'tfdemo.dev.tf'
+    value: 'tfdemo.dev.tfvars'
   - name: adoEnvironment
     value: 'dev'
   
