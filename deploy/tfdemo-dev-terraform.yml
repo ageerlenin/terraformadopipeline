@@ -1,15 +1,15 @@
-name: Terraform - deploy Service Bus to env01
+name: Terraform - deploy Service Bus to dev
 
 trigger: none
 
 variables:
-  - group: Terraform_SPN
+  - group: LSADev
   - name: rootFolder
     value: 'terraform/'
   - name: tfvarsFile
-    value: 'tfdemo.env01.tfvars'
+    value: 'tfdemo.dev.tfvars'
   - name: adoEnvironment
-    value: 'env01'
+    value: 'dev'
   
 stages:
 - template: templates/terraform-template.yml
